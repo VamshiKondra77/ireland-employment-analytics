@@ -1,15 +1,23 @@
-Welcome to your new dbt project!
+# 🇮🇪 Ireland Employment Analytics Pipeline
 
-### Using the starter project
+End-to-end modern data stack project analysing Irish employment and earnings trends using official CSO Ireland government data.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## 📊 Project Overview
 
+Built a production-grade analytics pipeline that ingests, transforms, and visualises 144,156 rows of Irish employment data spanning 2008–2026 across all major economic sectors.
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+**Key Finding:** IT and Financial Services sectors have seen the strongest earnings growth in Ireland over the past decade, with average weekly earnings growing significantly faster than the national average.
+
+## 🛠️ Tech Stack
+
+| Layer | Tool | Purpose |
+|---|---|---|
+| Data Source | CSO Ireland (cso.ie) | Official government employment data |
+| Ingestion | Python + Pandas | Download and load raw CSV data |
+| Storage | Snowflake | Cloud data warehouse |
+| Transformation | dbt Core | Bronze → Silver → Gold medallion architecture |
+| Data Quality | dbt tests | 10 automated data quality tests |
+| Documentation | dbt docs | Auto-generated lineage diagram |
+| Visualisation | Power BI | Interactive dashboard |
+
+## 🏗️ Architecture
