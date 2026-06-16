@@ -10,14 +10,21 @@ Built a production-grade analytics pipeline that ingests, transforms, and visual
 
 ## 🛠️ Tech Stack
 
-| Layer | Tool | Purpose |
-|---|---|---|
-| Data Source | CSO Ireland (cso.ie) | Official government employment data |
-| Ingestion | Python + Pandas | Download and load raw CSV data |
-| Storage | Snowflake | Cloud data warehouse |
-| Transformation | dbt Core | Bronze → Silver → Gold medallion architecture |
-| Data Quality | dbt tests | 10 automated data quality tests |
-| Documentation | dbt docs | Auto-generated lineage diagram |
-| Visualisation | Power BI | Interactive dashboard |
+|Layer|Tool|Purpose|
+|-|-|-|
+|Data Source|CSO Ireland (cso.ie)|Official government employment data|
+|Ingestion|Python + Pandas|Download and load raw CSV data|
+|Storage|Snowflake|Cloud data warehouse|
+|Transformation|dbt Core|Bronze → Silver → Gold medallion architecture|
+|Data Quality|dbt tests|10 automated data quality tests|
+|Documentation|dbt docs|Auto-generated lineage diagram|
+|Visualisation|Power BI|Interactive dashboard|
 
 ## 🏗️ Architecture
+
+\## 📸 Lineage Diagram
+
+
+
+!\[dbt Lineage Diagram](https://raw.githubusercontent.com/VamshiKondra77/ireland-employment-analytics/main/ireland\_employment\_analytics/images/lineage.png)
+
