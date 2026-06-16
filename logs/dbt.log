@@ -1,0 +1,32 @@
+[0m10:29:10.139319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BA760A120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BA4327250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BA89D7ED0>]}
+
+
+============================== 10:29:10.145535 | 2c1edce5-3be0-4aeb-a532-0fb9f5ccdfa1 ==============================
+[0m10:29:10.145535 [info ] [MainThread]: Running with dbt=1.11.11
+[0m10:29:10.146200 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\hp\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init ireland_employment_analytics', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:29:10.180409 [debug] [MainThread]: Starter project path: C:\Users\hp\OneDrive\Desktop\ireland-employment-analytics\venv\Lib\site-packages\dbt\include\starter_project
+[0m10:29:10.213124 [info ] [MainThread]: 
+Your new dbt project "ireland_employment_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:29:10.213973 [info ] [MainThread]: Setting up your profile.
+[0m10:30:06.387564 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m10:30:06.388264 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m10:30:06.388655 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m10:35:17.385530 [info ] [MainThread]: Profile ireland_employment_analytics written to C:\Users\hp\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:35:17.388881 [debug] [MainThread]: Command `dbt init` succeeded at 10:35:17.387086 after 367.41 seconds
+[0m10:35:17.389330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BBAE988A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BBA541130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013BBADF2580>]}
+[0m10:35:17.389681 [debug] [MainThread]: Flushing usage events
+[0m10:35:17.910030 [debug] [MainThread]: An error was encountered while trying to flush usage events

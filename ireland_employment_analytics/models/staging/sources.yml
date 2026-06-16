@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: IRELAND_ANALYTICS
+    schema: RAW
+    tables:
+      - name: raw_earnings_by_sector
+        description: "Raw earnings and employment data by economic sector from CSO Ireland EHQ03"
+      - name: raw_weekly_earnings
+        description: "Raw weekly earnings by sector from CSO Ireland EHQ15"
+      - name: raw_public_private
+        description: "Raw public vs private sector earnings from CSO Ireland EHQ08"

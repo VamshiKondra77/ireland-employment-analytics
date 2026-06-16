@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: stg_earnings_by_sector
+    description: "Cleaned earnings and employment data by economic sector from CSO Ireland EHQ03"
+    columns:
+      - name: quarter
+        description: "Quarter in format YYYYQN e.g. 2008Q1"
+        tests:
+          - not_null
+      - name: economic_sector
+        description: "Economic sector NACE Rev 2 classification"
+        tests:
+          - not_null
+      - name: year
+        description: "Year extracted from quarter"
+        tests:
+          - not_null
+      - name: value
+        description: "Statistical value"
+        tests:
+          - not_null
+
+  - name: stg_weekly_earnings
+    description: "Cleaned weekly earnings by sector from CSO Ireland EHQ15"
+    columns:
+      - name: quarter
+        tests:
+          - not_null
+      - name: economic_sector
+        tests:
+          - not_null
+      - name: value
+        tests:
+          - not_null
+
+  - name: stg_public_private
+    description: "Cleaned public vs private sector earnings from CSO Ireland EHQ08"
+    columns:
+      - name: quarter
+        tests:
+          - not_null
+      - name: sector_type
+        tests:
+          - not_null
+      - name: value
+        tests:
+          - not_null
