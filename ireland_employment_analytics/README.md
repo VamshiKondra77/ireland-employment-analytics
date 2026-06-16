@@ -21,7 +21,6 @@ Built a production-grade analytics pipeline that ingests, transforms, and visual
 | Visualisation | Power BI | Interactive dashboard |
 
 ## 🏗️ Architecture
-
 ## 📸 Lineage Diagram
 
 ![dbt Lineage Diagram](ireland_employment_analytics/images/lineage.png)
